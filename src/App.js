@@ -1,11 +1,19 @@
+import HeaderComponent from './Components/header-component';
+import MainComponent from './Components/main-component';
+import BuildCommunity from './Components/build-community';
+import FooterComponent from './Components/footer-component';
 
 import './App.css';
-import HeaderComponent from './Components/header-component';
 
 function App() {
   return (
     <div className="App">
       <HeaderComponent />
+      <div className="container">
+        <MainComponent />
+        <BuildCommunity />
+      </div>
+      <FooterComponent />
     </div>
   );
 }
