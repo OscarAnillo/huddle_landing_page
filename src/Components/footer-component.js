@@ -3,7 +3,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 export default function FooterComponent(){
     return (
         <footer className="footer">
-            <div>
+            <div className="footer-row-flex">
+                <div>
                 <img src="images/logo.svg" alt="" className="logo" />
                 <div className="footer-row">
                     <div>
@@ -28,6 +29,7 @@ export default function FooterComponent(){
                     <div>
                         <p>example@fylo.com</p>
                     </div>
+                </div>
                 </div>
                 <div>
                     <ul>

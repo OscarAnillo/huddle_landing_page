@@ -1,7 +1,7 @@
 export default function MainComponent(){
     return (
         <section className="main-section">
-            <div>
+            <div className="main-row">
                 <div>
                     <img src="images/illustration-grow-together.svg" alt="" />
                 </div>
@@ -10,7 +10,7 @@ export default function MainComponent(){
                     <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
                 </div>
             </div>
-            <div>
+            <div className="main-row-one">
                 <div>
                     <img src="images/illustration-flowing-conversation.svg" alt="" />
                 </div>
@@ -19,7 +19,7 @@ export default function MainComponent(){
                     <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
                 </div>
             </div>
-            <div>
+            <div className="main-row">
                 <div>
                     <img src="images/illustration-your-users.svg" alt="" />
                 </div>
