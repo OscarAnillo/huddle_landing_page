@@ -10,7 +10,7 @@ export default function FooterComponent(){
                         <img src="images/icon-location.svg" alt="" />
                     </div>
                     <div>
-                        <p>Lorem ipsumd dolor sit amet, consectetur adispicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adispicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
                 <div className="footer-row">
