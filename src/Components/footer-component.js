@@ -56,7 +56,7 @@ export default function FooterComponent(){
                         <FaInstagram />
                     </div>
                 </div>
-                <p className="copy">Copyright 2022 Huddle. All rights reserved.</p>
+                <p className="copy">© Copyright 2022 Huddle. All rights reserved.</p>
             </div>
         </footer>
     )
